@@ -9,9 +9,5 @@ import {ShoppingListService} from "./shopping-list/shopping-list.service";
 })
 export class AppComponent {
   title = 'ng4-project';
-  loadedFeature = 'recipe';
 
-  onNavigate(feature: string) {
-    this.loadedFeature = feature;
-  }
 }
